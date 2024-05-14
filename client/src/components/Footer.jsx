@@ -1,8 +1,9 @@
 export default function Footer() {
     return <>
         <div className="flex flex-col lg:flex-row lg:gap-8 lg:items-center lg:text-start bg-blue-950 text-white pt-16 text-sm text-center px-10 gap-12">
-            <img className="md:w-3/6 flex-1 lg:w-1/12 mx-auto lg:mr-16" src="./home/logo-white.png" alt="" />
-
+            <div className="md:w-3/6 flex-1 lg:w-1/12 mx-auto  lg:mr-16">
+                <img src="./home/logo-white.png" alt="" />
+            </div>
             <div className="md:text-base flex-1">
                 <i className='bx bx-map-pin text-xl'></i>
                 <div>
