@@ -20,7 +20,7 @@ export default function Menubar({ current }) {
                     <a href="/about" className={`h-full flex justify-center items-center px-6 hover:text-slate-300 ${current === "about" ? "text-slate-300" : ""}`}>About</a>
                 </div>
                 <div className="h-full">
-                    <a href="" onMouseEnter={() => { setAdmission(true) }} onMouseLeave={() => { setAdmission(false) }} className={`h-full flex gap-2 items-center px-6 hover:text-slate-300 ${current === "admission" ? "text-slate-300" : ""}`}>Admission<i className='bx bx-chevron-down'></i>
+                    <a href="/admission-requirements" onMouseEnter={() => { setAdmission(true) }} onMouseLeave={() => { setAdmission(false) }} className={`h-full flex gap-2 items-center px-6 hover:text-slate-300 ${current === "admission" ? "text-slate-300" : ""}`}>Admission<i className='bx bx-chevron-down'></i>
                     </a>
                     <div className={`${admission ? "flex" : "hidden"}`}>
                         <a href="" onMouseEnter={() => { setAdmission(true) }} onMouseLeave={() => { setAdmission(false) }} className={`flex items-center px-6 bg-blue-950 hover:text-slate-300 text-white h-20 ${current === "scholarship" ? "text-slate-300" : ""}`}>Scholarship</a>
@@ -49,7 +49,7 @@ export default function Menubar({ current }) {
             <div className={`absolute text-base flex lg:hidden flex-col justify-center bg-blue-950 text-center gap-10 pt-12 pb-16 text-white w-screen max-w-full transition duration-500 ${menu ? "" : "-translate-x-full"}`}>
                 <a href="/" className={`${current === 'home' ? "text-slate-300" : ""}`}>Home</a>
                 <a href="/about" className={`${current === 'about' ? "text-slate-300" : ""}`}>About</a>
-                <a href="" className={`${current === 'admission' ? "text-slate-300" : ""}`}>Admission</a>
+                <a href="/admission-requirements" className={`${current === 'admission' ? "text-slate-300" : ""}`}>Admission</a>
                 <a href="" className={`${current === 'student' ? "text-slate-300" : ""}`}>Student & Faculty Hub</a>
                 <a href="" className={`${current === 'touch' ? "text-slate-300" : ""}`}>Get in Touch</a>
                 <a href="" className={`${current === 'eagles' ? "text-slate-300" : ""}`}>Red Eagles</a>
