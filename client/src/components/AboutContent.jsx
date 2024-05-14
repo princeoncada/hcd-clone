@@ -1,6 +1,6 @@
 export default function AboutContent() {
-    return <>
-        <div className="px-5 md:px-10 md:text-lg">
+    return (
+        <div className="px-5 md:px-10 md:text-lg lg:w-4/5 lg:mx-auto">
             <div className="text-center font-bold text-2xl text-red-500 pb-8 pt-16 md:text-4xl md:px-10">
                 FOUNDATION THROUGH PASSION & LOVE
             </div>
@@ -26,5 +26,5 @@ export default function AboutContent() {
                 The fruits served their purpose, that of multiplying goodness in the land. The Founder’s once purposive vision aiming to empower students to become learned individuals who will eventually become leaders whose ideals seek to respond to God’s will has run a tumultuous outburst of events that didn’t end with Basic Education but has continued with determination and love to expand its horizon. A vision immensely felt by, carried by, and pursued by the family. The call to service: service to man and God above all.
             </div>
         </div>
-    </>;
+    )
 }

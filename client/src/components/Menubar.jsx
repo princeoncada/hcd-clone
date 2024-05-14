@@ -23,7 +23,7 @@ export default function Menubar({ current }) {
                     <a href="/admission-requirements" onMouseEnter={() => { setAdmission(true) }} onMouseLeave={() => { setAdmission(false) }} className={`h-full flex gap-2 items-center px-6 hover:text-slate-300 ${current === "admission" ? "text-slate-300" : ""}`}>Admission<i className='bx bx-chevron-down'></i>
                     </a>
                     <div className={`${admission ? "flex" : "hidden"}`}>
-                        <a href="" onMouseEnter={() => { setAdmission(true) }} onMouseLeave={() => { setAdmission(false) }} className={`flex items-center px-6 bg-blue-950 hover:text-slate-300 text-white h-20 ${current === "scholarship" ? "text-slate-300" : ""}`}>Scholarship</a>
+                        <a href="/scholarship" onMouseEnter={() => { setAdmission(true) }} onMouseLeave={() => { setAdmission(false) }} className={`flex items-center px-6 bg-blue-950 hover:text-slate-300 text-white h-20 ${current === "scholarship" ? "text-slate-300" : ""}`}>Scholarship</a>
                     </div>
                 </div>
                 <div className="h-full">
