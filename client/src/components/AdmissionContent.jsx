@@ -71,7 +71,7 @@ export default function AdmissionContent() {
             <div className="pt-5 text-sm text-red-500 italic">
                 * For more enrollment inquiries for Senior High School, kindly contact 0981-068-2527
             </div>
-            <div className="font-bold text-xl pt-8">
+            <div className="font-bold text-xl pt-8 text-start">
                 COLLEGE UNDERGRADUATE PROGRAMS
             </div>
             <div className="pt-5 pl-4">
